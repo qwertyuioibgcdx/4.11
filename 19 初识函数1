@@ -1,0 +1,11 @@
+# TODO 定义一个函数 sayHi
+def sayHi(name):
+    # TODO 格式化输出 ""
+    print(f"尊敬的会员{name}!")
+    # TODO 输出 ""
+    print(f"欢迎进入我的网站")
+
+# TODO 调用sayHi函数，并传递参数"Tony"
+sayHi("Tony")
+# TODO 调用sayHi函数，并传递参数"Gary"
+sayHi("Gary")
