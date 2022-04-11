@@ -1,0 +1,15 @@
+# 4.11
+def pay(mount,code):
+    if code=="888888":
+        if mount<=233:
+            newMount=233-mount
+            print(f"支付成功，您的余额还剩{newMount}")
+        else:
+            print("该卡余额不足！")
+    else:
+        print("密码输入错误，请重新输入！")    
+    
+       
+pay(234,"888888")
+pay(128,"888888")
+            
