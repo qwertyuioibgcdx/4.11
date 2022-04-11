@@ -1,0 +1,16 @@
+# 4.11
+# TODO 定义isOdd函数
+def isOdd(number):
+    # TODO 判断number是否为奇数
+    if number%2!=0:        
+        print("奇数")
+    else:
+        print("偶数")
+    
+        
+    
+        
+
+# TODO 调用isOdd函数
+isOdd(25)
+isOdd(10)
