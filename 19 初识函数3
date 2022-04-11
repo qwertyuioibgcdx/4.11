@@ -1,0 +1,12 @@
+# 4.11
+def visit(name,code):
+    print(f"尊敬的用户{name}，请输入您的密码！")
+    print(f"密码{code}输入正确，登录成功！")
+visit("Tony","123456")    
+def visit(name,code):
+    if name=="Tony" and code=="666666":
+        print("恭喜您，信息输入正确，登录成功！")
+    else:
+        print("不好意思，信息输入错误，请重新输入！")
+visit("Tony","123456")
+visit("Tony","666666")
